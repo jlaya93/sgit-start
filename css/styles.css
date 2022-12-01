@@ -1,0 +1,335 @@
+#navigationbar {
+  background-color: #372948;
+  color: #FFECEF;
+}
+
+.colored-section {
+  /* background-color: #FFCACA; */
+  /* background-color: #F8EDE3; */
+  /* color: #251B37; */
+  color: #4C6793;
+  display: flex;
+}
+
+nav .navbar-nav li a {
+  color: #DBC8AC !important;
+}
+
+nav .navbar-nav li a:hover {
+  color: white !important;
+}
+
+.dropdown-menu{
+  z-index: 999;
+  background-color: #372948;
+}
+
+.dropdown-menu :hover{
+  z-index: 999;
+  background-color: #372948;
+  color: white;
+}
+
+/* .navbar-fixed-top.scrolled {
+  background-color: #251B37 !important;
+  transition: background-color 200ms linear;
+} */
+
+#poster {
+  display: block;
+}
+
+.mainlogo {
+  height: 100px;
+}
+
+#gallery {
+  /* background-color: #FFECEF; */
+  /* background-color: #EDE4E0; */
+  /* background-color: #FFF8EA; */
+  width: 100%;
+}
+
+body {
+  /* background-color: #FFECEF; */
+  background-color: white;
+}
+
+/* .carousel-item img{
+    display: block;
+    height: auto;
+    max-width: 50%;
+    line-height: 1;
+    margin:auto;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+    height: 60vh;
+    overflow: hidden;
+} */
+.carousel-item img {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  max-width: 70%;
+  height: 400px;
+  margin: auto;
+  object-fit: fill;
+  object-position: center;
+  overflow: hidden;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.carousel-indicators {
+  color: black;
+}
+
+.sgit-heading {
+  font-family: 'Rye', cursive;
+}
+
+.sgit-heading h1 {
+  padding-top: 2%;
+  color: #372948;
+}
+
+.sgit-text {
+  font-family: 'Teko', sans-serif;
+}
+
+.sgit-text h1 {
+  font-size: 6rem;
+  color: #372948;
+  /* letter-spacing: 5px; */
+}
+
+.homeContent {
+  height: auto;
+  width: 1000px;
+  /* padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 3%;
+  padding-bottom: 3%; */
+  padding: 2%;
+  margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
+  /* background-color: #F8EDE3; */
+}
+
+.footer-content {
+  padding: 1.5%;
+}
+
+.footer-content p {
+  padding-left: 1%;
+  padding-right: 5%;
+  color: #DBC8AC;
+}
+
+#footer {
+  background-color: #372948;
+  color: white;
+}
+
+#footer p {
+  margin-bottom: 0;
+}
+
+#footer a {
+  width: 200px;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+.dark-colored-section {
+  background-color: #F8EDE3;
+}
+
+.light-colored-section {
+  background-color: #FFF8EA;
+}
+
+.box-administration {
+  height: auto;
+  width: 1000px;
+  padding: 2%;
+}
+
+.box-administration img{
+  display: block;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* .btech-content{
+  text-align: justify;
+  padding-top: 1.5%;
+  padding-bottom: 3.5%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+} */
+
+.btech-content{
+  height: auto;
+  width: 1000px;
+  padding: 2%;
+  text-align: justify;
+}
+
+.btech-content h4{
+  padding-top: 2%;
+}
+
+.btech-content p{
+  margin-bottom: 0;
+}
+
+.box-admission{
+  height: auto;
+  width: 1000px;
+  padding: 2%;
+  text-align: justify;
+}
+
+.box-admission h6{
+  margin-bottom: 0;
+}
+
+.box-admission h4{
+  margin-bottom: 15px;
+}
+
+.tables-section{
+  padding: 0.5% 10% 2% 10%;
+}
+
+table.table-bordered{
+    border:1px solid black;
+    margin-top:20px;
+  }
+table.table-bordered > thead > tr > th{
+    border:1px solid black;
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid black;
+}
+
+.box-facilities{
+  height: auto;
+  width: 1000px;
+  padding: 2%;
+  text-align: justify;
+}
+
+.box-facilities hr{
+  border-top: dotted 2.5px #372948;
+  margin: 2.5% 0 2.5% 0;
+}
+
+.inner-list{
+  list-style-type: circle;
+}
+
+.inner-library{
+  padding-left: 2.75%;
+}
+
+.navbarStudents{
+  padding: 0;
+  background-color: #372948;
+  margin-bottom: 2%;
+}
+
+.box-courses{
+  height: auto;
+  width: 1000px;
+  padding: 2%;
+  text-align: justify;
+}
+
+.box-courses hr{
+  border-top: dotted 2.5px #372948;
+  margin: 2.5% 0 2.5% 0;
+}
+
+.table-attendance{
+  table-layout: fixed;
+  width: 50%;
+  margin: 2%
+}
+
+.table-attendance th{
+  text-align: center;
+}
+
+.table-attendance td{
+  text-align: center;
+}
+
+.box-index{
+  width: 1000px;
+  padding: 2%;
+  text-align: justify;
+}
+
+.box-media{
+  height: auto;
+  width: 1000px;
+  padding: 2%;
+  text-align: justify;
+}
+
+.mediaCarousel{
+  padding-bottom: 3.5%;
+}
+
+.mediaCarousel h4{
+  padding-bottom: 2%;
+}
+
+.directorMessage p{
+  /* padding: 1.5%; */
+  margin: 0;
+}
+
+.directorMessage table{
+  border-style: solid;
+  border-color: #372948;
+  border-width: medium;
+}
+
+.directorImage img{
+  margin-bottom: 5%;
+}
+
+.directorImage p{
+  color: #372948;
+}
+
+.directorMessageContent{
+  padding: 1.5%;
+}
+
+.box-contact{
+  height: auto;
+  width: 1000px;
+  padding: 2%;
+  text-align: justify;
+}
+
+
+/* .mapLocation{
+  margin-left: auto;
+  margin-right: auto;
+} */
